@@ -1,5 +1,4 @@
 package com.backend.routes
-
 import com.backend.models.Artista
 import com.backend.models.ErrorResponse
 import com.backend.services.ArtistaService

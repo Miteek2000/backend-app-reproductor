@@ -13,10 +13,10 @@ import org.jetbrains.exposed.sql.transactions.transaction
 
 fun Application.configureDatabases() {
     val config = HikariConfig().apply {
-        jdbcUrl = "jdbc:postgresql://localhost:5432/app-music"
+        jdbcUrl = "jdbc:postgresql://localhost:5432/app_music"
         driverClassName = "org.postgresql.Driver"
         username = "postgres"
-        password = "123456"
+        password = "Holasoymayte2006"
         maximumPoolSize = 10
     }
 
